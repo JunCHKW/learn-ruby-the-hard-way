@@ -6,7 +6,9 @@ months = "\nJan\nFeb\nMar\nApr\nMay\nJun\nJul\nAug"
 puts "Here the days: #{days}"
 puts "Here the months: #{months}"
 
-# puts %q{...} => Printing paragraph text/quote
+# %q => non-interpolated string (except for \, [, and])
+# %Q => interpolated string (default)
+# puts %q{...} => Printing quote string without interpolation
 puts %q{
 There's something going on here.
     With this weird quote
