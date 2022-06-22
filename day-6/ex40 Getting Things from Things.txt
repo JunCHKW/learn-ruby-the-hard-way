@@ -1,0 +1,13 @@
+# GETTING THINGS FROM THINGS
+
+# *dict style
+# mystuff['apples']
+
+# *module style
+# mystuff.apples()
+# puts mystuff::TANGERINE
+
+# *class style
+# thing = MyStuff.new
+# thing.apples()
+# thing.tangerine
